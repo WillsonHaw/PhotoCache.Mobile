@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:gap="http://phonegap.com/ns/1.0"
+        id="com.photocache"
+        version="0.0.1">
+  <name>PhotoCache</name>
+  <description>PhotoCache</description>
+  <author href="https://github.com/MrHayato/PhotoCache" email="mrhayato@gmail.com">
+    Willson Haw
+  </author>
+  <preference name="fullscreen" value="true" />
+  
+  <feature name="http://api.phonegap.com/1.0/camera" />
+  <feature name="http://api.phonegap.com/1.0/contacts" />
+  <feature name="http://api.phonegap.com/1.0/file" />
+  <feature name="http://api.phonegap.com/1.0/geolocation" />
+  <feature name="http://api.phonegap.com/1.0/network" />
+  <feature name="http://api.phonegap.com/1.0/notification" />
+
+  <access origin="http://photocache.com" subdomains="true" />
+  <access origin="http://appharbor.com" subdomains="true" />
+</widget>
